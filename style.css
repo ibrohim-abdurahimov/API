@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.title{
+    text-align: center;
+    margin-top: 20px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    padding: 50px 10%;
+}
+.card{
+    padding: 16px;
+    box-shadow: 0 0 10px #0005;
+}
+.card h3{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.card p{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+}
